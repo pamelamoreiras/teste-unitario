@@ -1,0 +1,21 @@
+<p>
+    <strong>OLÁ, PAMELA MOREIRA</strong>
+    <br />
+    Ag:2409, Co: 24099-9
+</p>
+
+<p>
+    Poupança: R$ {{ getPoupanca }}
+    <br />
+    <br />
+    <input type="text" #sacar>
+    <button (click)="setSacar(sacar.value)">Sacar</button>
+</p>
+
+<p>
+    Carteira: R$ {{ getCarteira }}
+    <br />
+    <br />
+    <input type="text" #depositar>
+    <button (click)="setDepositar(depositar.value)">Depositar</button>
+</p>
