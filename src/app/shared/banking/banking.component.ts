@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class BankingComponent {
 
-  private poupanca: number = 250000;
-  private carteira: number = 500000;
+  private poupanca: number = 10;
+  private carteira: number = 50;
 
   get getPoupanca(): number {
     return this.poupanca;
